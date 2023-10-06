@@ -1,4 +1,4 @@
 module.exports = {
-  "*.{md}": ["yarn lint:markdown", "yarn lint:text"],
-  "*": ["yarn lint:prettier", "yarn lint:cspell"],
+  "*.md": ["markdownlint-cli2", "textlint"],
+  "*.{md,html,json.yaml,yml,js,cjs,mjs,ts,jsx,tsx}": ["prettier --write"],
 };
