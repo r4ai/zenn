@@ -27,7 +27,8 @@
       "ja-no-mixed-period": {
         "allowPeriodMarks": [
           ":",
-          "："
+          "：",
+          "、"
         ]
       },
       "no-doubled-joshi": {
@@ -54,7 +55,7 @@
           "”",
           "“"
         ]
-      }
+      },
     },
     "preset-ja-spacing": {
       "ja-space-around-code": {
